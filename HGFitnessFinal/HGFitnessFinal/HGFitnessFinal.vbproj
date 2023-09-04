@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08333B34-A82A-450A-B55B-09911F4EDE22}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HGFitnessFinal.My.MyApplication</StartupObject>
+    <RootNamespace>HGFitnessFinal</RootNamespace>
+    <AssemblyName>HGFitnessFinal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HGFitnessFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HGFitnessFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.6.6.0, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214" />
+    <Reference Include="Awesomium.Windows.Forms, Version=1.6.6.0, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedArms.Designer.vb">
+      <DependentUpon>AdvancedArms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedArms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedCore.Designer.vb">
+      <DependentUpon>AdvancedCore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedCore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedForm.Designer.vb">
+      <DependentUpon>AdvancedForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedLegs.Designer.vb">
+      <DependentUpon>AdvancedLegs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedLegs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeginnerArms.Designer.vb">
+      <DependentUpon>BeginnerArms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BeginnerArms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeginnerCore.Designer.vb">
+      <DependentUpon>BeginnerCore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BeginnerCore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeginnerLegs.Designer.vb">
+      <DependentUpon>BeginnerLegs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BeginnerLegs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FitnessForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FitnessForm.Designer.vb">
+      <DependentUpon>FitnessForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeginnerForm.Designer.vb">
+      <DependentUpon>BeginnerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BeginnerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntermediateArms.Designer.vb">
+      <DependentUpon>IntermediateArms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntermediateArms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntermediateCore.Designer.vb">
+      <DependentUpon>IntermediateCore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntermediateCore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntermediateForm.Designer.vb">
+      <DependentUpon>IntermediateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntermediateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntermediateLegs.Designer.vb">
+      <DependentUpon>IntermediateLegs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntermediateLegs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdvancedArms.resx">
+      <DependentUpon>AdvancedArms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedCore.resx">
+      <DependentUpon>AdvancedCore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedForm.resx">
+      <DependentUpon>AdvancedForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedLegs.resx">
+      <DependentUpon>AdvancedLegs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeginnerArms.resx">
+      <DependentUpon>BeginnerArms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeginnerCore.resx">
+      <DependentUpon>BeginnerCore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeginnerLegs.resx">
+      <DependentUpon>BeginnerLegs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FitnessForm.resx">
+      <DependentUpon>FitnessForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeginnerForm.resx">
+      <DependentUpon>BeginnerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntermediateArms.resx">
+      <DependentUpon>IntermediateArms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntermediateCore.resx">
+      <DependentUpon>IntermediateCore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntermediateForm.resx">
+      <DependentUpon>IntermediateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntermediateLegs.resx">
+      <DependentUpon>IntermediateLegs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
