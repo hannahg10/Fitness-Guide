@@ -1,5 +1,5 @@
 # Fitness Guide - Your Personal Workout Companion
-Your personal fitness guide designed to help aid your workout journey!
+A versitle fitness application that empowers users to tailor their exercise routine based on their preferred intensity level and specific target areas.
 
 ## Description
 This is the Fitness Guide Program, a user-friendly fitness application developed in Visual Basic .NET to help you achieve your fitness goals effectively and efficiently. Whether you're a beginner, an intermediate enthusiast, or an advanced fitness enthusiast, looking to build strength, tone your muscles, or simply stay active, this program is designed to cater to your unique fitness level and preferences to support you on your fitness journey.
